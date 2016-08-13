@@ -888,7 +888,12 @@
     <field name="A2A_msg_rate" type="uint32"/>
   </message>
 
-  <!--107 is free -->
+  <message name="ROLANDLOC" id="107">
+    <field name="posx" type="uint32"/>
+    <field name="posy" type="uint32"/>
+  </message>
+
+
   <message name="PIKSI_HEARTBEAT" id="108">
     <field name="heartbeat" type="uint32"/>
   </message>
