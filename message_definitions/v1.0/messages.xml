@@ -2684,7 +2684,7 @@
     <field name="downsized_width" type="int32">The width of the image you received. Added because a module the receives this message does not know how big the image was that was broadcasted </field>
   </message>
 
-  <message name="ROLAND_GO_HERE" id="156" link="forwarded">
+  <message name="ROLAND_GO_HERE" id="156" link="broadcasted">
     <field name="posx" type="uint32"/>
     <field name="posy" type="uint32"/>
   </message>
